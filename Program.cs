@@ -15,9 +15,9 @@
         Console.WriteLine($"Введите возраст ученика");
         double Age = Convert.ToDouble(Console.ReadLine());
 
-        double Programming = rand.Next(0, 100 + 1);
-        double Math = rand.Next(0, 100 + 1);
-        double Fizik = rand.Next(0, 100 + 1);
+        double Programming = rand.NextDouble() + rand.Next(0, 100 + 1);
+        double Math = rand.NextDouble() + rand.Next(0, 100 + 1);
+        double Fizik = rand.NextDouble() + rand.Next(0, 100 + 1);
 
         Console.WriteLine($"\nНажмите любую кнопку для вывода информации");
 
